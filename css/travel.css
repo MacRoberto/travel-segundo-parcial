@@ -145,6 +145,10 @@ h1 {
     padding: 3%;
 }
 
+.Ticket {
+    padding: 10px;
+}
+
 .leyendaChikita {
     display: flex;
     flex-direction: column;
