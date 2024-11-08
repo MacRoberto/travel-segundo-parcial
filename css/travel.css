@@ -431,13 +431,13 @@ gap: 141px;
     transition: all 0.5s ease;
   }
   .Bottoms .btn_gray:hover{
-    background: #fff;
+    background: #00A651;
     color: #666;
   }
   .Bottoms .btn_green2{
     width: 180px;
     height: 60px;
-    background: #00A651;
+    background: #666;
     border-radius: 10px;
     text-align: center;
     display: block;
@@ -451,8 +451,8 @@ gap: 141px;
   }
   
   .btn_green2:hover{
-    background-color: #fff;
-    color: #00A651;
+    background-color: #00A651;
+    color: #666;
   }
   
   .Container{
