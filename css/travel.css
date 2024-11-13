@@ -447,8 +447,7 @@ gap: 141px;
     position: relative;
     bottom: 190px;
     background: #fff;
-    border-bottom-left-radius:  20px;
-    border-bottom-right-radius:  20px;
+    border-radius:  20px;
     height: 180px;
     width: 435px;
   }
@@ -458,6 +457,7 @@ gap: 141px;
     bottom: 27px;
     width: 435px;
     height: 485px;
+    border-radius: 20px;
   }
   
   .Places h1{
