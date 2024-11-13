@@ -432,35 +432,15 @@ gap: 141px;
     transition: all 0.5s ease;
   }
   .Bottoms .btn_gray:hover{
-    background: #fff;
-    color: #666;
-  }
-  .Bottoms .btn_green2{
-    width: 180px;
-    height: 60px;
     background: #00A651;
-    border-radius: 10px;
-    text-align: center;
-    display: block;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 14px;
-    font-weight: 600;
-    color: #f0f0f0;
-    text-align: center;
-    transition: all 0.5s ease;
-  }
-  
-  .btn_green2:hover{
-    background-color: #fff;
-    color: #00A651;
+    color: #fff;
   }
   
   .Container{
     display: flex;
-    margin: 70px;
+    margin: 80px;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 90px;
+    gap: 80px;
   }
   
   .white_container{
