@@ -391,40 +391,65 @@ gap: 141px;
 .Ventajas_signo_de_interrogacion {
     margin-top: 72px;
     margin-bottom: 75px;
-    justify-content: center;
-    text-align: center;
+}
+
+.OtraClaseNoma img{
+    background-color: #fff ;
+    background-repeat: no-repeat;
+    background-position: end;
+    display: flex;
 }
 
 .Ventajas_signo_de_interrogacion h1 {
     font-size: 2em;
+    text-align: center;
 }
 
+.Ventajas_signo_de_interrogacion p {
+    font-size: 2em;
+    text-align: center;
+}
 
 .OtraClaseNoma {
     background-color: #fff;
     display: flex;
-    border-radius: 6px;
-    width: 659px;
-    box-shadow: 3px 3px 10px 0px #00000014;
-    margin-top: 42px;
+    width: 570px;
+    margin-top: 100px;
     margin-bottom: 10px;
+    margin-left: 13%;
+    row-gap: 67px;
+    flex-direction: column;
 }
 
-.Destination img {
+.imagengege {
+    display: flex;
     justify-content: left;
+    padding-right: 28px;
+    width: 65.21;
+    height: 66.59;
 }
 
 .Destination {
-    margin-left: 100px;
     display: flex;
-    flex-direction: column;
     text-size-adjust: 50%;
+    color: #5E6282;
     padding: 3%;
+    flex-direction: column;
+    row-gap: 67px;
+}
+
+.OtraClaseNoma img {
+    justify-content: right;
+    display: flex;
+    flex-direction: end;
+    align-items: end;
 }
 
 .contenido_chistoso {
     justify-content: left;
     display:flex;
+    width: 548px;
+    height: 88.79px;
 }
 
 .contenido_chistoso h2 {
