@@ -613,3 +613,55 @@ gap: 141px;
     font-size: 16px;
     font-weight: bold;
 }
+.people_say_section{
+    background:rgba(0, 88, 84, 0.06) ;
+    width: 100%;
+    height: 771px;
+  }
+  .people_say{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .people_say_description{
+    height: 54px;
+    width: 524px;
+    padding-top: 133px;
+    position: absolute;
+  }
+
+  .people_say_description h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .people_say_opinions{
+    overflow: hidden;
+    width: 100vw;
+  }
+  .people_say_image_slider{
+    overflow: hidden;
+    padding-top: 238px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+
+  .people_say_image_slider p{
+    font-family:"Poppins",sans-serif;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .people_say_image_slider img{
+    height: 597px;
+    width: 3128px;
+    
+  }
+
+  
