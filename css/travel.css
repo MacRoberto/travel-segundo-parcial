@@ -414,6 +414,7 @@ gap: 141px;
     margin-top: 20px;
     justify-content: center; 
     align-items: flex-start; 
+    position: absolute;
   }
   
   .Bottoms .btn_gray {
@@ -441,6 +442,7 @@ gap: 141px;
     margin: 74px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 74px;
+    position: relative;
   }
   
   .white_container{
