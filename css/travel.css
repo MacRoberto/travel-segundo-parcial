@@ -552,6 +552,64 @@ gap: 141px;
     background-color: #fff;
     color: #00A651;
   }
-  
-   
-  
+
+  .Ventajas_signo_de_interrogacion {
+    margin-top: 72px;
+    margin-bottom: 75px;
+}
+
+.OtraClaseNoma img{
+    background-color: #fff ;
+    background-repeat: no-repeat;
+    background-position: end;
+    display: flex;
+}
+
+.Ventajas_signo_de_interrogacion h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.Ventajas_signo_de_interrogacion p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.OtraClaseNoma {
+    display: flex;
+    width: 570px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 13%;
+    row-gap: 67px;
+    flex-direction: column;
+}
+
+.imagengege {
+    display: flex;
+    justify-content: left;
+    padding-right: 28px;
+    width: 65.21;
+    height: 66.59;
+}
+
+.Destination {
+    display: flex;
+    text-size-adjust: 50%;
+    color: #5E6282;
+    padding: 3%;
+    flex-direction: column;
+    row-gap: 67px;
+}
+
+.contenido_chistoso {
+    justify-content: left;
+    display:flex;
+    width: 548px;
+    height: 88.79px;
+}
+
+.contenido_chistoso h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
