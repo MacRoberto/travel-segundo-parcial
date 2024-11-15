@@ -409,7 +409,7 @@ gap: 141px;
   .Bottoms {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    gap: 60px; 
+    gap: 55px; 
     margin: 100px;
     margin-top: 20px;
     justify-content: center; 
@@ -438,24 +438,31 @@ gap: 141px;
   
   .Container{
     display: flex;
-    margin: 74px;
+    margin: 100px;
     grid-template-columns: 1fr 1fr 1fr;
+<<<<<<< Updated upstream
     gap: 74px;
+=======
+    gap: 65px;
+    position: relative;
+    top: 120px;
+>>>>>>> Stashed changes
   }
   
   .white_container{
     position: relative;
     bottom: 190px;
     background: #fff;
-    border-radius:  20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     height: 180px;
-    width: 435px;
+    width: 410px;
   }
   
   .Places img{
     position: relative;
     bottom: 27px;
-    width: 435px;
+    width: 410px;
     height: 485px;
     border-radius: 20px;
   }
@@ -464,7 +471,7 @@ gap: 141px;
     font-size: 20px;
     font-weight: 400;
     position: relative;
-    right: 135px;
+    right: 125px;
     bottom: 20px;
   }
   
@@ -472,7 +479,7 @@ gap: 141px;
     font-size: 20px;
     font-weight: 400;
     position: relative;
-    left: 300px;
+    left: 270px;
     bottom: 75px;
   }
   
@@ -503,16 +510,8 @@ gap: 141px;
     font-weight: 600;
   }
   .Text h4{
-    position: relative;
-    left: 210px;
-    bottom: 15px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-  .Text h5{
-    position: relative;
-    left: 260px;
+    position: absolute;
+    left: 310px;
     bottom: 15px;
     font-size: 16px;
     font-weight: 600;
@@ -529,15 +528,16 @@ gap: 141px;
   
   .btn_green3{
     position: absolute;
-    left: 620px;
-    bottom: 130px;
+    left: 535px;
+    bottom: 10px;
     width: 300px;
     height: 80px;
     background: #00A651;
     border-radius: 10px;
     text-align: center;
     color: #fff;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-top: 98px;
     font-size: 24px;
     font-weight: 600;
